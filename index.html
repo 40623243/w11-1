@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<title>
+2017 Spring 機械設計工程系網際內容管理
+</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" href="data/reveal/reveal.css">
+    <link rel="stylesheet" href="data/reveal/black.css" id="theme">
+    
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="data/reveal/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'data/reveal/pdf.css' : 'data/reveal/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="data/reveal/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="reveal">
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+<section data-markdown>
+    <script type="text/template">
+## 2017Fall CADP 與 CP
+
+### 虎科大機械設計工程系
+
+<small>
+Created by [40623243](http://cpb.kmol.info/40623243/blog/)
+</small>
+
+[CADP 與 CP 課程網誌](blog/index.html)
+
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+### W1
+
+* 上課準備筆記本、隨身碟與耳機
+* 機械設計包含6種表達:實體,量化,口語,文字,2D,3D 及創造力:執行力,自學力,想像力
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+### W2
+
+* 介紹各種指令:fossil clone複製, fossil open打開, fossil add新增, fossil commit提交
+* 設定更改自己的密碼並從timeline檢視紀錄
+    </script>
+</section>
+
+
+						
+<section>
+    <section data-markdown>
+        <script type="text/template">
+    ### w3
+
+    * 練習用fossil clone, fossil open, fossil add, fossil commit
+    * fossil clone自己的和範本的倉儲,新增資料夾分別用fossil open開啟clone的檔案,再用fossil add新增範本資料到自己的資料內,再用fossil commit上傳到自己的遠端
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    ### w4
+
+    * 克隆下自己最新的資料後, 當更改版本後,可用fossil status確認
+    * 用shareX記錄自己的操作過程並存檔上傳
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    ### W6
+
+    * 複習前面的指令fossil clone, fossil open, fossil status, fossil add, fossil commit, fossil delete
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    ### w7
+
+    * 學習python3基本語法
+    * for迴圈:
+    *ex1 簡單的 for 迴圈範例
+    class w8():
+        
+        def __init__(self,star):
+            self.star = star
+            
+        def diamond(self,w):
+            for i in range(1,w):
+                print((w-i)*" " + i*self.star)
+            for i in range(w):
+                print(i*" " + (w-i)*self.star)
+                
+    w = w8("6")
+
+    w.diamond(10)
+                
+        </script>
+    </section>
+
+
+    						
+</section>
+
+
+						
+<section>
+    <section data-markdown>
+        <script type="text/template">
+    ## w8
+
+    * 學習用eric6建立calculator基本語法,記錄下來並上傳到網誌上
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    ## 心得
+
+    * 對於程式是以往沒有接觸過的,所以沒有很快進入狀況,現在會盡力跟上進度,希望不要落後太多
+    ## 自評分數:65
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    # SCM 功能
+
+    * SCM 是軟體組成元件與狀態的管理
+    * 關心要納入那些元件? 如何納入? 元件間如何組合運作?
+    * 關心目前的狀態如何? 功能是否滿足需求?
+    * 成員是否團隊合作? 是否創造出協同效益?
+    * 當狀態產生問題或缺陷, 如何追蹤? 如何改善?
+    * 成員是否依照規劃, 提供完整的文件、規格與手冊?
+
+
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    # SCM 目標 (1/2)
+
+    * 辨識 (identification) - 需求、流程與環境的辨識
+    * 控制 (control) - 批准或拒絕內容的變更
+    * 會計 (accounting) -  完整保存每個階段所進行的變更
+    * 審核 (auditing) - 確認建立完整的文件, 需求, 架構, 規範與使用者手冊
+    * 構建管理 (build) - 管理過程中所需的各類工具
+
+
+
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    # SCM 目標 (2/2)
+
+    * 流程管理 (process) - 確認過程融入組織的發展要求
+    * 環境管理 (environment) - 提供託管內容所需的軟體與硬體
+    * 團隊合作 (teamwork) - 促進團隊互動協同
+    * 缺陷追踪 (defect tracking) - 可追溯每個缺陷的源頭
+
+
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    # SCM 的目標
+
+    * 以團隊協同合作模式
+    * 透過詳細的履歷 (清楚註記時間、變更與建立者)
+    * 完整呈現並管理各階段內容的組成元件與狀態
+    * 達到資源高效運用, 最佳化軟體<strike>機械設計</strike>開發過程
+
+        </script>
+    </section>
+
+
+    						
+</section>
+
+
+						
+<section>
+    <section data-markdown>
+        <script type="text/template">
+    # 課程如何評分
+
+    * 出席: 20% (if 全勤: 提問與答題內容*平時表現)
+    * 平時表現: 30% (隨身碟與倉儲內容 + 每堂筆記內容)
+    * 驗收考試: 30% (三階段現場錄製操作與心得影片-註記時間與錄製人員學號)
+    * 驗收簡報: 20% (驗收週各組簡報, 各學員簡報, 根據驗收考試與簡報內容自評與互評)
+
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    # 依照學號與座位分組
+
+    * 分組不是找同學幫您做作業, 應付專題實習
+    * 分組是為了學習, 如何與豬隊友進行協同
+    * 全班依學號入座, 每六人一小組, 每三小組為一大組
+    * 每班提供兩台廣域伺服器, 配合與個人的隨身碟存放資料
+    * 每一個階段的練習, 都要拍成練習影片, 上傳 Youtube 與 Vimeo
+    * 影片標題必須冠上校名、系名、課程名與學號
+
+
+        </script>
+    </section>
+
+
+    						
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+# 投影片快捷鍵
+
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+    </script>
+</section>
+
+
+						
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+# 數學符號與方程式
+
+Inline math equations go in like so: $\omega = d\phi / dt$. Display
+math should get its own line and be put in in double-dollarsigns:
+
+$$I = \int \rho R^{2} dV$$
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 利用 Markdown 寫投影片
+以下利用 Markdown 格式展示 Python 程式碼:
+```
+# use threading and subprocess to threading the make process
+import os
+import subprocess
+import threading
+
+def domake():
+    
+    path = "../exposed/api/exposed"
+    ubuntu = "../Ubuntu"
+    
+    # create obj path
+    
+    if not os.path.exists(path+"/../obj"):
+        os.makedirs(path+"/../obj")
+    
+    subprocess.call(["make", "clean"], cwd=path)
+    subprocess.call("make", cwd=path)
+    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
+    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
+    
+make = threading.Thread(target=domake)
+make.start()
+```
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+</div>
+
+</div>
+
+<script src="data/reveal/head.min.js"></script>
+<script src="data/reveal/reveal.js"></script>
+<script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'data/reveal/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'data/reveal/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'data/reveal/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'data/reveal/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'data/reveal/zoom.js', async: true },
+                { src: 'data/reveal/notes.js', async: true },
+                { src: 'data/reveal/math.js', async: true }
+            ]
+        });
+</script>
+</body>
+</html>
+
